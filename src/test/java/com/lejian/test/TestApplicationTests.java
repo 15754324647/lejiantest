@@ -41,13 +41,13 @@ class TestApplicationTests {
 
     @Test
     void contextLoads() {
-        // TODO 输出最长对称字符串：goog
+        //输出最长对称字符串：goog
         String input1 = "google";
 
-        // TODO 输出3个最长对称字符串：aba/aca/ada
+        //输出3个最长对称字符串：aba/aca/ada
         String input2 = "abcda";
 
-        // TODO 输出2个最长对称字符串：pop/upu，不会输出特殊字符的对称字符串p-p
+        //输出2个最长对称字符串：pop/upu，不会输出特殊字符的对称字符串p-p
         String input3 = "pop-upu";
         System.out.println(getStr(getReplaceStrList(input1)));
     }
